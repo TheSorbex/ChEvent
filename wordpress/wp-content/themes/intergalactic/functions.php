@@ -22,6 +22,7 @@ function create_post_type() {
             'has_archive' => true,
             'capability_type' => array('event','events'),
             'map_meta_cap' => true,
+            'taxonomies' => array( 'category' ),
         )
     );
 
@@ -35,6 +36,7 @@ function create_post_type() {
             'has_archive' => true,
             'capability_type' => array('eventStatus','eventStatuses'),
             'map_meta_cap' => true,
+            'taxonomies' => array( 'category' ),
         )
     );
 }
@@ -65,7 +67,10 @@ function psp_add_role_caps()
 
     }
 }
-
+add_action( 'init', 'sk_add_category_taxonomy_to_events' );
+function sk_add_category_taxonomy_to_events() {
+    register_taxonomy_for_object_type( 'category', 'events' );
+}
 /**
  * Set the content width based on the theme's design and stylesheet.
  */
