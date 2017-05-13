@@ -10,6 +10,61 @@ function wpb_force_empty_cats($cat_args) {
 
     return $cat_args;
 }
+add_action( 'init', 'create_post_type' );
+function create_post_type() {
+    register_post_type( 'event',
+        array(
+            'labels' => array(
+                'name' => __( 'events' ),
+                'singular_name' => __( 'event' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'capability_type' => array('event','events'),
+            'map_meta_cap' => true,
+        )
+    );
+
+    register_post_type( 'eventStatus',
+        array(
+            'labels' => array(
+                'name' => __( 'eventStatuses' ),
+                'singular_name' => __( 'eventStatus' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'capability_type' => array('eventStatus','eventStatuses'),
+            'map_meta_cap' => true,
+        )
+    );
+}
+
+add_action('admin_init','psp_add_role_caps',999);
+function psp_add_role_caps()
+{
+
+    // Add the roles you'd like to administer the custom post types
+    $roles = array('subscriber', 'administrator');
+
+    // Loop through each role and assign capabilities
+    foreach ($roles as $the_role) {
+
+        $role = get_role($the_role);
+
+        $role->add_cap('read');
+        $role->add_cap('read_event');
+        $role->add_cap('read_private_events');
+        $role->add_cap('edit_event');
+        $role->add_cap('edit_events');
+        $role->add_cap('edit_others_events');
+        $role->add_cap('edit_published_events');
+        $role->add_cap('publish_events');
+        $role->add_cap('delete_others_events');
+        $role->add_cap('delete_private_events');
+        $role->add_cap('delete_published_events');
+
+    }
+}
 
 /**
  * Set the content width based on the theme's design and stylesheet.
