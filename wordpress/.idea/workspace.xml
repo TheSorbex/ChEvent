@@ -1,7 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e087316b-af91-42d7-8da7-85aedd19eaa0" name="Default" comment="" />
+    <list default="true" id="e087316b-af91-42d7-8da7-85aedd19eaa0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/pe-category-filter/screenshot-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/pe-category-filter/screenshot-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/pe-category-filter/pecf_catfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/pe-category-filter/pecf_menu_form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/pe-category-filter/readme.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/css/cs-cloning.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/css/cs-cloning.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/css/cs-scan.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/css/cs-scan.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/css/cs-visibility.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/css/cs-visibility.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/css/cs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/css/cs.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/customsidebars.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/img/devman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/img/frontpage-info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/img/hand-with-heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/img/heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/img/stripes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-checkup-notification.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-cloning.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-editor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-explain.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-export.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-replacer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-visibility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars-widgets.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/class-custom-sidebars.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wdev-frash/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wdev-frash/admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wdev-frash/admin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wdev-frash/module.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/animate.3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/animate.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/fontawesome.3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/fontawesome.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/jquery-ui.wpmui.3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/jquery-ui.wpmui.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/select2.3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/select2.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/wpmu-card-list.3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/wpmu-card-list.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/wpmu-html.3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/wpmu-html.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/wpmu-ui.3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/wpmu-ui.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/wpmu-vnav.3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/css/wpmu-vnav.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/fonts/FontAwesome440.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/fonts/fontawesome440-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/fonts/fontawesome440-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/fonts/fontawesome440-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/fonts/fontawesome440-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/fonts/fontawesome440-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/jquery-ui/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/jquery-ui/ui-bg_flat_0_f4fff4_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/jquery-ui/ui-bg_flat_0_fff4f4_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/jquery-ui/ui-bg_flat_75_cccccc_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/jquery-ui/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/jquery-ui/ui-bg_highlight-hard_65_ffffff_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/jquery-ui/ui-bg_highlight-hard_75_dadada_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/jquery-ui/ui-bg_highlight-hard_75_e6e6e6_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/jquery-ui/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/jquery-ui/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/jquery-ui/ui-icons_484_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/jquery-ui/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/jquery-ui/ui-icons_A44_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/select2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/select2x2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/img/spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/inc/class-thelib-array.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/inc/class-thelib-core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/inc/class-thelib-debug.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/inc/class-thelib-html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/inc/class-thelib-net.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/inc/class-thelib-session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/inc/class-thelib-ui.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/inc/class-thelib-updates.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/inc/class-thelib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/js/select2.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/js/select2.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/js/wpmu-card-list.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/js/wpmu-card-list.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/js/wpmu-ui.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/js/wpmu-ui.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/js/wpmu-vnav.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/js/wpmu-vnav.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/view/list.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/inc/external/wpmu-lib/view/pointer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/js/cs-cloning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/js/cs-cloning.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/js/cs-visibility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/js/cs-visibility.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/js/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/js/cs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-de_DE.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-de_DE.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-en_EN.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-en_EN.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-es_ES.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-es_ES.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-fr_FR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-fr_FR.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-he_IL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-he_IL.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-it_IT.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-it_IT.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-nl_NL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-nl_NL.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-pl_PL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars-pl_PL.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/lang/custom-sidebars.pot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/views/col-sidebars.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/views/import.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/views/metabox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/views/quick-edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/views/widgets-delete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/views/widgets-editor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/views/widgets-export.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/views/widgets-location.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/custom-sidebars/views/widgets.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/jquery-ui-1.10.4.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/jquery-ui-1.10.4.custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/multiple-select.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/multiple-select.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/css/ure-admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/images/admin-menu-editor-pro.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/images/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/images/changelog-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/images/donate-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/images/faq-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/images/help.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/images/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/images/remove-16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/images/user-role-editor-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/images/user-role-editor-page-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/images/user-role-editor-pro-728x90.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/images/vladimir.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/advertisement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/ajax-processor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/assign-role.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/base-lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/bbpress.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/capabilities-groups-manager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/capability.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/grant-roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/known-js-css-compatibility-issues.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/own-capabilities.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/protect-admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/role-additional-options.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/role-view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/screen-help.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/task-queue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/ure-lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/user-other-roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/user-role-editor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/user-view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/classes/woocommerce-capabilities.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/define-constants.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/loader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/misc-support-stuff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/includes/settings-template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/js/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/js/jquery.multiple.select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/js/ure-js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/js/ure-user-profile-other-roles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/js/ure-users.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/js/users-grant-roles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/lang/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/lang/user-role-editor.pot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/screenshot-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/screenshot-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/screenshot-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/screenshot-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/screenshot-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/screenshot-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/uninstall.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/user-role-editor/user-role-editor.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/intergalactic/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/intergalactic/functions.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +222,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/intergalactic/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-6018">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -32,14 +238,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/intergalactic/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="217">
-              <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+              <caret line="51" column="50" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class-wp-widget-categories.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/widgets/class-wp-widget-categories.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="26" column="45" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/intergalactic/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <element signature="e#6#85#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-admin/includes/schema.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="493" column="5" lean-forward="false" selection-start-line="493" selection-start-column="5" selection-end-line="493" selection-end-column="5" />
+              <folding>
+                <marker date="1478020592000" expanded="true" signature="1730:2027" ph="CREATE TABLE... ${$wpdb-&gt;termmeta}" />
+                <marker date="1478020592000" expanded="true" signature="2045:2350" ph="CREATE TABLE... ${$wpdb-&gt;terms}" />
+                <marker date="1478020592000" expanded="true" signature="2368:2787" ph="CREATE TABLE... ${$wpdb-&gt;term_taxonomy}" />
+                <marker date="1478020592000" expanded="true" signature="2805:3082" ph="CREATE TABLE... ${$wpdb-&gt;term_relationships}" />
+                <marker date="1478020592000" expanded="true" signature="3100:3409" ph="CREATE TABLE... ${$wpdb-&gt;commentmeta}" />
+                <marker date="1478020592000" expanded="true" signature="3427:4528" ph="CREATE TABLE... ${$wpdb-&gt;comments}" />
+                <marker date="1478020592000" expanded="true" signature="4546:5265" ph="CREATE TABLE... ${$wpdb-&gt;links}" />
+                <marker date="1478020592000" expanded="true" signature="5283:5568" ph="CREATE TABLE... ${$wpdb-&gt;options}" />
+                <marker date="1478020592000" expanded="true" signature="5586:5883" ph="CREATE TABLE... ${$wpdb-&gt;postmeta}" />
+                <marker date="1478020592000" expanded="true" signature="5901:7220" ph="CREATE TABLE... ${$wpdb-&gt;posts}" />
+                <marker date="1478020592000" expanded="true" signature="7354:8006" ph="CREATE TABLE... ${$wpdb-&gt;users}" />
+                <marker date="1478020592000" expanded="true" signature="8078:8813" ph="CREATE TABLE... ${$wpdb-&gt;users}" />
+                <marker date="1478020592000" expanded="true" signature="8870:9169" ph="CREATE TABLE... ${$wpdb-&gt;usermeta}" />
+                <marker date="1478020592000" expanded="true" signature="9405:10070" ph="CREATE TABLE... ${$wpdb-&gt;blogs}" />
+                <marker date="1478020592000" expanded="true" signature="10088:10335" ph="CREATE TABLE... ${$wpdb-&gt;blog_versions}" />
+                <marker date="1478020592000" expanded="true" signature="10353:10660" ph="CREATE TABLE... ${$wpdb-&gt;registration_log}" />
+                <marker date="1478020592000" expanded="true" signature="10678:10889" ph="CREATE TABLE... ${$wpdb-&gt;site}" />
+                <marker date="1478020592000" expanded="true" signature="10907:11186" ph="CREATE TABLE... ${$wpdb-&gt;sitemeta}" />
+                <marker date="1478020592000" expanded="true" signature="11204:11907" ph="CREATE TABLE... ${$wpdb-&gt;signups}" />
+                <marker date="1478020592000" expanded="true" signature="18043:18112" ph="SELECT optio... ${$wpdb-&gt;options}" />
+                <marker date="1478020592000" expanded="true" signature="18550:18622" ph="INSERT INTO ${$wpdb-&gt;options}... " />
+                <marker date="1478020592000" expanded="true" signature="20509:20587" ph="DELETE FROM " />
+                <marker date="1478020592000" expanded="true" signature="29532:29572" ph="SELECT id FR... ${$wpdb-&gt;site}" />
+                <marker date="1478020592000" expanded="true" signature="34221:34290" ph="INSERT INTO ${$wpdb-&gt;sitemeta}... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="widgets.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/widgets.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-42">
+              <caret line="83" column="8" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,16 +324,23 @@
       <find>so</find>
       <find>socia</find>
       <find>social</find>
+      <find>widget widget_categories</find>
       <find>slide-menu</find>
+      <find>widget_categories</find>
     </findStrings>
     <dirStrings>
       <dir>D:\wamp\www\WordPress\wordpress\wp-content\themes\intergalactic</dir>
+      <dir>D:\wamp\www\WordPress\wordpress\wp-content</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/intergalactic/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/intergalactic/functions.php" />
       </list>
     </option>
   </component>
@@ -77,6 +357,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -190,23 +471,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1494688434944</updated>
-      <workItem from="1494688458736" duration="3908000" />
+      <workItem from="1494688458736" duration="5946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3908000" />
+    <option name="totallyTimeSpent" value="5946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25816485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34352517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32830188" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -242,7 +522,7 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/intergalactic/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6018">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -258,9 +538,68 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/intergalactic/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
-          <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+          <caret line="51" column="50" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#div#2;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/schema.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="493" column="5" lean-forward="false" selection-start-line="493" selection-start-column="5" selection-end-line="493" selection-end-column="5" />
+          <folding>
+            <marker date="1478020592000" expanded="true" signature="1730:2027" ph="CREATE TABLE... ${$wpdb-&gt;termmeta}" />
+            <marker date="1478020592000" expanded="true" signature="2045:2350" ph="CREATE TABLE... ${$wpdb-&gt;terms}" />
+            <marker date="1478020592000" expanded="true" signature="2368:2787" ph="CREATE TABLE... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1478020592000" expanded="true" signature="2805:3082" ph="CREATE TABLE... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1478020592000" expanded="true" signature="3100:3409" ph="CREATE TABLE... ${$wpdb-&gt;commentmeta}" />
+            <marker date="1478020592000" expanded="true" signature="3427:4528" ph="CREATE TABLE... ${$wpdb-&gt;comments}" />
+            <marker date="1478020592000" expanded="true" signature="4546:5265" ph="CREATE TABLE... ${$wpdb-&gt;links}" />
+            <marker date="1478020592000" expanded="true" signature="5283:5568" ph="CREATE TABLE... ${$wpdb-&gt;options}" />
+            <marker date="1478020592000" expanded="true" signature="5586:5883" ph="CREATE TABLE... ${$wpdb-&gt;postmeta}" />
+            <marker date="1478020592000" expanded="true" signature="5901:7220" ph="CREATE TABLE... ${$wpdb-&gt;posts}" />
+            <marker date="1478020592000" expanded="true" signature="7354:8006" ph="CREATE TABLE... ${$wpdb-&gt;users}" />
+            <marker date="1478020592000" expanded="true" signature="8078:8813" ph="CREATE TABLE... ${$wpdb-&gt;users}" />
+            <marker date="1478020592000" expanded="true" signature="8870:9169" ph="CREATE TABLE... ${$wpdb-&gt;usermeta}" />
+            <marker date="1478020592000" expanded="true" signature="9405:10070" ph="CREATE TABLE... ${$wpdb-&gt;blogs}" />
+            <marker date="1478020592000" expanded="true" signature="10088:10335" ph="CREATE TABLE... ${$wpdb-&gt;blog_versions}" />
+            <marker date="1478020592000" expanded="true" signature="10353:10660" ph="CREATE TABLE... ${$wpdb-&gt;registration_log}" />
+            <marker date="1478020592000" expanded="true" signature="10678:10889" ph="CREATE TABLE... ${$wpdb-&gt;site}" />
+            <marker date="1478020592000" expanded="true" signature="10907:11186" ph="CREATE TABLE... ${$wpdb-&gt;sitemeta}" />
+            <marker date="1478020592000" expanded="true" signature="11204:11907" ph="CREATE TABLE... ${$wpdb-&gt;signups}" />
+            <marker date="1478020592000" expanded="true" signature="18043:18112" ph="SELECT optio... ${$wpdb-&gt;options}" />
+            <marker date="1478020592000" expanded="true" signature="18550:18622" ph="INSERT INTO ${$wpdb-&gt;options}... " />
+            <marker date="1478020592000" expanded="true" signature="20509:20587" ph="DELETE FROM " />
+            <marker date="1478020592000" expanded="true" signature="29532:29572" ph="SELECT id FR... ${$wpdb-&gt;site}" />
+            <marker date="1478020592000" expanded="true" signature="34221:34290" ph="INSERT INTO ${$wpdb-&gt;sitemeta}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/widgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="83" column="8" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/widgets/class-wp-widget-categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="26" column="45" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/intergalactic/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>

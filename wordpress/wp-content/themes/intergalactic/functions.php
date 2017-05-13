@@ -4,6 +4,12 @@
  *
  * @package Intergalactic
  */
+add_filter( 'widget_categories_args', 'wpb_force_empty_cats' );
+function wpb_force_empty_cats($cat_args) {
+    $cat_args['hide_empty'] = 0;
+
+    return $cat_args;
+}
 
 /**
  * Set the content width based on the theme's design and stylesheet.
