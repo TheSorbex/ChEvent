@@ -46,7 +46,7 @@ $header = get_header_image();
             <span class="lines"></span>
             <span class="screen-reader-text"><?php _e( 'Primary Menu', 'intergalactic' ); ?></span>
         </button>
-        <div class="slide-menu">
+            <div class="slide-menu">
 <!--            <nav id="site-navigation" class="main-navigation" role="navigation">-->
 <!--                --><?php //wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 <!--            </nav><!-- #site-navigation -->

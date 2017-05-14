@@ -17,10 +17,14 @@ get_header(); ?>
 			<header class="page-header">
 				<h1 class="page-title">
 					<?php
-						if ( is_category() ) :
-							single_cat_title();
+                    $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
 
-						elseif ( is_tag() ) :
+                    if ( is_category()  ) :
+							single_cat_title();
+                        elseif($term):
+                            $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
+                            echo $term->name; // will show the name
+                    elseif ( is_tag() ) :
 							single_tag_title();
 
 						elseif ( is_author() ) :

@@ -22,7 +22,6 @@ function create_post_type() {
             'has_archive' => true,
             'capability_type' => array('event','events'),
             'map_meta_cap' => true,
-            'taxonomies' => array( 'category' ),
         )
     );
 
@@ -36,7 +35,6 @@ function create_post_type() {
             'has_archive' => true,
             'capability_type' => array('eventStatus','eventStatuses'),
             'map_meta_cap' => true,
-            'taxonomies' => array( 'category' ),
         )
     );
 }
@@ -67,9 +65,52 @@ function psp_add_role_caps()
 
     }
 }
-add_action( 'init', 'sk_add_category_taxonomy_to_events' );
-function sk_add_category_taxonomy_to_events() {
-    register_taxonomy_for_object_type( 'category', 'events' );
+//add_action( 'init', 'sk_add_category_taxonomy_to_events' );
+//function sk_add_category_taxonomy_to_events() {
+//    register_taxonomy_for_object_type( 'category', 'events' );
+//}
+
+//hook into the init action and call create_book_taxonomies when it fires
+add_action( 'init', 'create_event_category_hierarchical_taxonomy', 0 );
+
+//create a custom taxonomy name it topics for your posts
+
+function create_event_category_hierarchical_taxonomy() {
+
+// Add new taxonomy, make it hierarchical like categories
+//first do the translations part for GUI
+
+    $labels = array(
+        'name' => _x( 'Event categorys', 'taxonomy general name' ),
+        'singular_name' => _x( 'Event category', 'taxonomy singular name' ),
+        'search_items' =>  __( 'Search Event categorys' ),
+        'all_items' => __( 'All Event categorys' ),
+        'parent_item' => __( 'Parent Event category' ),
+        'parent_item_colon' => __( 'Parent Event category:' ),
+        'edit_item' => __( 'Edit Event category' ),
+        'update_item' => __( 'Update Event category' ),
+        'add_new_item' => __( 'Add New Event category' ),
+        'new_item_name' => __( 'New Event category Name' ),
+        'menu_name' => __( 'Event categorys' ),
+    );
+
+// Now register the taxonomy
+
+    register_taxonomy('event_category',array('event'), array(
+        'hierarchical' => true,
+        'labels' => $labels,
+        'show_ui' => true,
+        'show_admin_column' => true,
+        'query_var' => true,
+        'rewrite' => array( 'slug' => 'event_category' ),
+        'capabilities' => array (
+            'manage_terms'=> 'manage_event_categories',
+            'edit_terms'=> 'manage_event_categories',
+            'delete_terms'=> 'manage_event_categories',
+            'assign_terms' => 'edit_events',
+            ),
+    ));
+
 }
 /**
  * Set the content width based on the theme's design and stylesheet.
