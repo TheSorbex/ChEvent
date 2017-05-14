@@ -301,4 +301,25 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/jetpack.php';
 
 
+add_action( 'wp_enqueue_scripts', 'ajax_event_buttons_scripts' );
+function ajax_event_buttons_scripts() {
+//    var_dump(get_template_directory_uri().'/js/event-buttons.js');
+//    var_dump(get_stylesheet_directory_uri().'/js/event-buttons.js');
+    wp_enqueue_script( 'events-js', get_template_directory_uri().'/js/event-buttons.js', array('jquery'), '1.0', true );
+//    var_dump($foo); die('done');
+}
+
+wp_localize_script( 'event-buttons', 'event', array(
+    'ajp_nonce' => wp_create_nonce('afp_nonce'),
+    'ajax_url' => admin_url( 'admin-ajax.php' ),
+));
+
+add_action( 'wp_ajax_nopriv_event_status', 'create_update_event_status' );
+add_action( 'wp_ajax_wp_status', 'create_update_event_status' );
+
+function create_update_event_status()
+{
+    echo 'succes';
+}
+
 

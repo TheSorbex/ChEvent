@@ -19,6 +19,14 @@ $formats = get_theme_support( 'post-formats' );
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
+    <div class="event-buttons-wrapper">
+        <div class="event-buttons">
+            <a href="#" id="event_button_join" class="event-button more-link">Join</a>
+            <a href="#" id="event_button_reject" class="event-button more-link">Reject</a>
+            <a href="#" id="event_button_maybe" class="event-button more-link">Maybe</a>
+        </div>
+    </div>
+
 	<?php if ( has_post_format( $formats[0] ) ) : ?>
 		<div class="entry-content">
 			<?php the_content( __( 'Read More', 'intergalactic' ) ); ?>
