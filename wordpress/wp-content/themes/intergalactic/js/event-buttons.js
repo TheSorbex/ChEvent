@@ -2,14 +2,15 @@ jQuery(document).ready( function($) {
     $(".event-button").click(function (e) {
         e.preventDefault();
         $.ajax({
-            url: event.ajaxurl,
-            type: "POST",
+            url: eventjs.ajaxurl,
+            type: "post",
             data: {
+                "action": "create_update_event_status",
                 "eventId": $(e.target).attr('event_id'),
                 "buttonId": $(e.target).attr('id')
             },
             success: function( data ) {
-                alert( 'event status id ' + data);
+                alert(data);
             }
         });
     });

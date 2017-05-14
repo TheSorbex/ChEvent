@@ -19,6 +19,45 @@ $formats = get_theme_support( 'post-formats' );
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
+    <?php
+    $user =  wp_get_current_user();
+    $args = array(
+//        'post_type' => 'eventStatus',
+        'meta_query'  => array(
+            array(
+                'key' => 'user',
+                'value' => $user->ID,
+                'compare' => '=',
+            ),
+//            array(
+//                'key' => 'event',
+//                'value' => $post->ID,
+//                'compare' => '=',
+//            ),
+        ),
+    );
+
+    $postStatuses = new WP_Query($args);
+
+    $postStatuses = get_posts( array(
+        'meta_key'   => 'user',
+        'meta_value' => $user->ID,
+    ) );
+
+    ?>
+
+    <?php
+    while ($postStatuses) {
+
+        $postStatus = $postStatuses->the_post();
+        if ($postStatus) {
+            $status = get_post_meta($postStatus->ID, 'status');
+            break;
+        }
+    }
+
+    ?>
+
     <div class="event-buttons-wrapper">
         <div class="event-buttons">
             <a href="#" id="event_button_join" class="event-button " event_id="<?php the_ID(); ?>">Join</a>

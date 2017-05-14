@@ -19,7 +19,7 @@ $header = get_header_image();
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <script type="text/javascript">
         var siteUrl = "<?php echo site_url();?>"
-        var event = {"ajaxurl": siteUrl + "\/wp-admin\/admin-ajax.php"}
+        var eventjs = {"ajaxurl": siteUrl + "\/wp-admin\/admin-ajax.php"}
     </script>
 
     <?php wp_head(); ?>

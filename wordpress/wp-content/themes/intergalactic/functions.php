@@ -309,29 +309,37 @@ function ajax_event_buttons_scripts() {
 //    var_dump($foo); die('done');
 }
 
-wp_localize_script( 'event-buttons', 'event', array(
+wp_localize_script( 'event-buttons', 'eventjs', array(
     'ajp_nonce' => wp_create_nonce('afp_nonce'),
     'ajax_url' => admin_url( 'admin-ajax.php' ),
 ));
 
-add_action( 'wp_ajax_nopriv_event_status', 'create_update_event_status' );
-add_action( 'wp_ajax_wp_status', 'create_update_event_status' );
+add_action( 'wp_ajax_nopriv_create_update_event_status', 'create_update_event_status' );
+add_action( 'wp_ajax_create_update_event_status', 'create_update_event_status' );
 
 function create_update_event_status()
 {
     $event_id = $_POST['eventId'];
     $event_button_id = $_POST['buttonId'];
     $current_user = wp_get_current_user();
-
     $post = array(
         'post_title' => 'event status',
         'post_content' => '',
-        'user' => $current_user->ID,
-        'event' =>$event_id,
-        'status' => str_replace("event_button_","",$event_button_id)
+//        'user' => $current_user->ID,
+//        'event' =>$event_id,
+//        'status' => str_replace("event_button_","",$event_button_id)
     );
 
-    $eventStatusId = wp_insert_post( $post , true);
+    $eventStatusId = wp_insert_post( $post);
+
+    try {
+        add_post_meta($eventStatusId, 'user', $current_user->ID);
+        add_post_meta($eventStatusId, 'event', $event_id);
+        add_post_meta($eventStatusId, 'status', str_replace("event_button_","",$event_button_id));
+    } catch (Exception $e) {
+        echo $e->getMessage();
+    }
     echo $eventStatusId;
+    die;
 }
 
