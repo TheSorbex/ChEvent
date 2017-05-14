@@ -21,9 +21,9 @@ $formats = get_theme_support( 'post-formats' );
 
     <div class="event-buttons-wrapper">
         <div class="event-buttons">
-            <a href="#" id="event_button_join" class="event-button more-link">Join</a>
-            <a href="#" id="event_button_reject" class="event-button more-link">Reject</a>
-            <a href="#" id="event_button_maybe" class="event-button more-link">Maybe</a>
+            <a href="#" id="event_button_join" class="event-button " event_id="<?php the_ID(); ?>">Join</a>
+            <a href="#" id="event_button_reject" class="event-button " event_id="<?php the_ID(); ?>">Reject</a>
+            <a href="#" id="event_button_maybe" class="event-button " event_id="<?php the_ID(); ?>">Maybe</a>
         </div>
     </div>
 

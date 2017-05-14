@@ -135,6 +135,10 @@ body {
     /* Fallback for when there is no custom background color defined. */
 }
 
+event-button:after{
+    content: "";
+}
+
 article,
 aside,
 details,
@@ -1728,7 +1732,7 @@ a.more-link:focus {
     top: -4px;
     display: inline;
     margin-left: 5px;
-    content: '\f442';
+    /*content: '\f442';*/
     vertical-align: middle;
 }
 
@@ -2379,4 +2383,42 @@ object {
     .single .entry-title {
         width: 1366px;
     }
+}
+
+a.event-button {
+    font-size: .778em;
+    font-weight: bold;
+
+    display: block;
+
+    width: 48%;
+    max-width: 330px;
+    margin: 1.5em auto;
+    padding: .75em 0;
+
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: white;
+    border: 2px solid white;
+}
+a.event-button:after {
+    display: inline;
+    content:""; !important;
+    margin-left: 5px;
+
+
+}
+a.event-button:hover,
+a.event-button:active,
+a.event-button:focus {
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+
+    color: #222;
+    background: white;
 }

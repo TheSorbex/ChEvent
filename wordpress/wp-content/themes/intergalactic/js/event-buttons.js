@@ -3,8 +3,13 @@ jQuery(document).ready( function($) {
         e.preventDefault();
         $.ajax({
             url: event.ajaxurl,
+            type: "POST",
+            data: {
+                "eventId": $(e.target).attr('event_id'),
+                "buttonId": $(e.target).attr('id')
+            },
             success: function( data ) {
-                alert( 'Your home page has ' + $(data).find('div').length + ' div elements.');
+                alert( 'event status id ' + data);
             }
         });
     });

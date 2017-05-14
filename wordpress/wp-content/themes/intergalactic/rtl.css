@@ -111,7 +111,7 @@ textarea {
 	left: auto;
 }
 a.more-link:after {
-	content: "\2190";
+
 	margin-right: 5px;
 	margin-left: auto;
 }

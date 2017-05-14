@@ -108,7 +108,7 @@ function create_event_category_hierarchical_taxonomy() {
             'edit_terms'=> 'manage_event_categories',
             'delete_terms'=> 'manage_event_categories',
             'assign_terms' => 'edit_events',
-            ),
+        ),
     ));
 
 }
@@ -116,7 +116,7 @@ function create_event_category_hierarchical_taxonomy() {
  * Set the content width based on the theme's design and stylesheet.
  */
 if ( ! isset( $content_width ) ) {
-	$content_width = 1000; /* pixels */
+    $content_width = 1000; /* pixels */
 }
 
 if ( ! function_exists( 'intergalactic_setup' ) ) :
@@ -319,7 +319,19 @@ add_action( 'wp_ajax_wp_status', 'create_update_event_status' );
 
 function create_update_event_status()
 {
-    echo 'succes';
-}
+    $event_id = $_POST['eventId'];
+    $event_button_id = $_POST['buttonId'];
+    $current_user = wp_get_current_user();
 
+    $post = array(
+        'post_title' => 'event status',
+        'post_content' => '',
+        'user' => $current_user->ID,
+        'event' =>$event_id,
+        'status' => str_replace("event_button_","",$event_button_id)
+    );
+
+    $eventStatusId = wp_insert_post( $post , true);
+    echo $eventStatusId;
+}
 
